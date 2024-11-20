@@ -10,7 +10,7 @@ import {
   UseGuards,
 } from '@nestjs/common'
 import { CreateMessageDto } from './dtos/createMessage.dto'
-import { SessionGuard } from 'src/auth/guard/session.guard'
+import { SessionGuard } from '../auth/guard/session.guard'
 
 @Controller('messages')
 export class MessageController {

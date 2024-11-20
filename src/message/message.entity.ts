@@ -9,7 +9,7 @@ import {
   TreeParent,
 } from 'typeorm'
 
-import { User } from 'src/user/user.entity'
+import { User } from '../user/user.entity'
 
 @Entity()
 @Tree('closure-table')
